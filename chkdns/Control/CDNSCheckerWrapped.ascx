@@ -1,0 +1,1 @@
+<%@ Control Language="vb" AutoEventWireup="false" Codebehind="CDNSCheckerWrapped.ascx.vb" Inherits="checkdns_uniplace_com.CDNSCheckerWrapped" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>

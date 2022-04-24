@@ -1,0 +1,41 @@
+.eventtable
+{
+    WIDTH: 80%;
+}
+.chaptertable
+{
+    WIDTH: 80%;
+}
+.eventtd
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: 'MS Sans Serif';
+}
+.chaptertd
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: white;
+    FONT-FAMILY: 'MS Sans Serif';
+    BACKGROUND-COLOR: #004080
+}
+.headertd
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: 'MS Sans Serif';
+    BACKGROUND-COLOR: #ffc080
+}
+.special
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: 'MS Sans Serif';
+}
+.selected
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: white;
+    FONT-FAMILY: 'MS Sans Serif';
+}

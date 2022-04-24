@@ -1,0 +1,89 @@
+.eventtable {
+	WIDTH: 80%
+}
+.chaptertable {
+	WIDTH: 80%
+}
+.eventtd {
+	FONT-SIZE: 8pt; FONT-FAMILY: 'MS Sans Serif'
+}
+.chaptertd {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: 'MS Sans Serif'; BACKGROUND-COLOR: #004080
+}
+.headertd {
+	FONT-SIZE: 8pt; FONT-FAMILY: 'MS Sans Serif'; BACKGROUND-COLOR: #ffc080
+}
+.special {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: 'MS Sans Serif'
+}
+.selected {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: 'MS Sans Serif'
+}
+.unselected {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: green; FONT-FAMILY: 'MS Sans Serif'
+}
+.BodyPart {
+	BACKGROUND-COLOR: #f3f4f7
+}
+.ButtonClass {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #69f; BORDER-BOTTOM-COLOR: #69f; COLOR: #ffffff; BORDER-TOP-COLOR: #69f; BACKGROUND-COLOR: #004080; BORDER-RIGHT-COLOR: #69f
+}
+.LoginBody {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #004080; BACKGROUND-COLOR: #dde0e6
+}
+P {
+	FONT-SIZE: 8pt; COLOR: #40434a; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #40434a; FONT-FAMILY: Arial, Helvetica
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #40434a; FONT-FAMILY: Arial, Helvetica
+}
+H3 {
+	FONT-SIZE: 10pt; COLOR: #40434a; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica
+}
+H4 {
+	FONT-SIZE: 10pt; COLOR: #40434a; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica
+}
+.bluebutton {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT-COLOR: #1f6ebe; BACKGROUND-IMAGE: none; BORDER-BOTTOM-COLOR: #1f6ebe; CURSOR: hand; COLOR: white; BORDER-TOP-COLOR: #1f6ebe; BACKGROUND-REPEAT: repeat; FONT-FAMILY: Verdana, Arial; HEIGHT: 18px; BACKGROUND-COLOR: #004183; BORDER-RIGHT-COLOR: #1f6ebe
+}
+.TextInput {
+	BORDER-RIGHT: #d1d3d6 1pt solid; BORDER-TOP: #d1d3d6 1pt solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND-IMAGE: none; BORDER-LEFT: #d1d3d6 1pt solid; CURSOR: hand; COLOR: black; BORDER-BOTTOM: #d1d3d6 1pt solid; BACKGROUND-REPEAT: repeat; FONT-FAMILY: Verdana, Arial; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+.TableText {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica
+	COLOR: #40434A
+}
+TR {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica
+	COLOR: #40434A
+}
+LI {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+A:active {
+	COLOR: #990000
+}
+A:link {
+	COLOR: #244895
+}
+A:visited {
+	COLOR: #4d5569
+}
+.TMPrint {
+	FONT-SIZE: 8pt
+}
+A.whitelink:active {
+	COLOR: white
+}
+A.whitelink:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.whitelink:visited {
+	COLOR: white; TEXT-DECORATION: none
+}

@@ -1,0 +1,247 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>register</title>
+		<meta content="Microsoft Visual Studio.NET 7.0" name="GENERATOR">
+		<meta content="Visual Basic 7.0" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<LINK href="/css/style.css" type="text/css" rel="stylesheet">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form name="Form1" method="post" action="register.aspx" language="javascript" onsubmit="ValidatorOnSubmit();" id="Form1">
+<input type="hidden" name="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" value="dDwtODkwNzYzNDYxO3Q8O2w8aTwxPjs+O2w8dDw7bDxpPDE1PjtpPDE3PjtpPDIxPjs+O2w8dDxwPGw8aW5uZXJodG1sOz47bDxcPGltZyBzcmM9Jy9pbWFnZXMvUHJvbW90aW9uL1Byb21vdGlvbkRlZmF1bHQuZ2lmJyAgYm9yZGVyPTAgd2lkdGg9JzAnIGhlaWdodD0nMCdcPjs+Pjs7Pjt0PHQ8cDxwPGw8RGF0YVRleHRGaWVsZDtEYXRhVmFsdWVGaWVsZDs+O2w8U3Vic2NyaXB0aW9uTmFtZTtTdWJzY3JpcHRpb25UeXBlSUQ7Pj47Pjt0PGk8Mz47QDxTdWJzY3JpcHRpb24gMyAtIEZyZWU7U3Vic2NyaXB0aW9uIDMwIC0gT25seSA5JC9tb250aCAtIDI3JCBmb3IgMyBtb250aDtTdWJzY3JpcHRpb24gMzAwIC0gT25seSA0OSQvbW9udGg7PjtAPDE7MjszOz4+O2w8aTwwPjs+Pjs7Pjt0PHA8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47PjtsPGk8MT47aTw1PjtpPDc+Oz47bDx0PHA8cDxsPEJhY2tDb2xvcjtfIVNCOz47bDwyPFdoaXRlPjtpPDk+Oz4+Oz47Oz47dDx0PHA8cDxsPEJhY2tDb2xvcjtfIVNCOz47bDwyPFdoaXRlPjtpPDk+Oz4+Oz47O2w8aTwwPjs+Pjs7Pjt0PHQ8cDxwPGw8QmFja0NvbG9yO18hU0I7PjtsPDI8V2hpdGU+O2k8OT47Pj47Pjs7bDxpPDA+Oz4+Ozs+Oz4+Oz4+Oz4+Oz7ppqi16H+XCZpZqqgcGtMY2sRCSg==" />
+
+<script language="javascript">
+<!--
+	function __doPostBack(eventTarget, eventArgument) {
+		var theform = document.Form1;
+		theform.__EVENTTARGET.value = eventTarget;
+		theform.__EVENTARGUMENT.value = eventArgument;
+		theform.submit();
+	}
+// -->
+</script>
+       
+<script language="javascript" src="/aspnet_client/system_web/1_0_3705_288/WebUIValidation.js"></script>
+
+
+			<table cellSpacing="0" cellPadding="0" width="100%" bgColor="#004184" border="0">
+				<tr>
+					<td width="100%" background="/images/Gradient2B.jpg" height="42">
+						<font face="Verdana, Arial, Helvetica" color="#ffffff" size="3">&nbsp;<B>Registration </B>
+						</font>
+					</td>
+				</tr>
+			</table>
+			<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="1">
+				<tr>
+					<td width="60%">
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<td align="middle" width="60%" height="5" border="0"><br>
+									<b>Sign-In Information</b> <i>(Required)</i>
+								</td>
+								<td align="middle" width="40%" height="5" border="0"></td>
+							</tr>
+						</table>
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<td align="right" width="20%" height="5" border="0">User name (e-mail) :&nbsp;
+								</td>
+								<td align="left" width="40%" height="5" border="0"><input name="UserName" type="text" maxlength="50" id="UserName" /><span id="Requiredfieldvalidator1" controltovalidate="UserName" errormessage="Pl. enter email address" evaluationfunction="RequiredFieldValidatorEvaluateIsValid" initialvalue="" style="color:Red;height:20px;width:143px;visibility:hidden;">Pl. enter email address</span><span id="RegularExpressionValidator1" controltovalidate="UserName" errormessage="Invalid email address" evaluationfunction="RegularExpressionValidatorEvaluateIsValid" validationexpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" style="color:Red;visibility:hidden;">Invalid email address</span></td>
+							</tr>
+							<tr>
+								<td align="right" width="20%" height="5" border="0">Password :&nbsp;
+								</td>
+								<td align="left" width="40%" height="5" border="0"><input name="Password" type="password" maxlength="50" id="Password" /><span id="RequiredFieldValidator2" controltovalidate="Password" errormessage="Pl. enter password" evaluationfunction="RequiredFieldValidatorEvaluateIsValid" initialvalue="" style="color:Red;visibility:hidden;">Pl. enter password</span></td>
+							</tr>
+							<tr>
+								<td align="right" width="20%" height="5" border="0">Confirm Password :&nbsp;
+								</td>
+								<td align="left" width="40%" height="5" border="0"><input name="ConfirmPassword" type="password" maxlength="50" id="ConfirmPassword" /><span id="CompareValidator1" controltovalidate="Password" errormessage="Passwords must match" evaluationfunction="CompareValidatorEvaluateIsValid" controltocompare="ConfirmPassword" controlhookup="ConfirmPassword" style="color:Red;visibility:hidden;">Passwords must match</span></td>
+							</tr>
+						</table>
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<td align="middle" width="60%" height="5" border="0"><br>
+									<b>Personal Information</b> <i>(Optional)</i>
+								</td>
+								<td align="middle" width="40%" height="5" border="0"></td>
+							</tr>
+						</table>
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<td align="right" width="20%" height="5" border="0">First Name :&nbsp;
+								</td>
+								<td align="left" width="40%" height="5" border="0"><input name="FirstName" type="text" maxlength="50" id="FirstName" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="20%" height="5" border="0">Last Name :&nbsp;
+								</td>
+								<td align="left" width="40%" height="5" border="0"><input name="LastName" type="text" maxlength="50" id="LastName" /></td>
+							</tr>
+						</table>
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<br>
+							</tr>
+							<tr>
+								<td align="right" width="35%" height="5" border="0"><br>
+									<b>Subscription Type</b>&nbsp;&nbsp;
+								</td>
+								<td align="left" width="65%" height="5" border="0">&nbsp; <span id="spanPicure"><img src='/images/Promotion/PromotionDefault.gif'  border=0 width='0' height='0'></span>
+								</td>
+							</tr>
+						</table>
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<td align="right" width="20%" height="5" border="0">Name :&nbsp;
+								</td>
+								<td align="left" width="40%" height="5" border="0"><select name="dpSubscriptionType" id="dpSubscriptionType" onchange="__doPostBack('dpSubscriptionType','')" language="javascript">
+	<option selected="selected" value="1">Subscription 3 - Free</option>
+	<option value="2">Subscription 30 - Only 9$/month - 27$ for 3 month</option>
+	<option value="3">Subscription 300 - Only 49$/month</option>
+
+</select></td>
+							</tr>
+							<tr>
+								<td align="right" width="20%" height="5" border="0">Price :&nbsp;
+								</td>
+								<td align="left" width="40%" height="5" border="0"><input name="txtPrice" type="text" value="0" maxlength="50" readonly="readonly" id="txtPrice" style="width:50px;" />
+									&nbsp;USD
+								</td>
+							</tr>
+						</table>
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<td align="middle" width="20%" height="5" border="0">
+									
+								</td>
+							</tr>
+						</table>
+						<table class="BodyPart" height="9" cellSpacing="0" cellPadding="0" width="100%" border="0">
+							<tr>
+								<td align="middle" width="100%" height="5" border="0"><br>
+								</td>
+							</tr>
+							<tr>
+								<td align="middle" width="100%" height="5" border="0">
+									<input type="submit" name="btnCreateAccount" value="Submit" onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(); " language="javascript" id="btnCreateAccount" class="bluebutton" />
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" Class="bluebutton" value="Cancel" onClick='javascript:window.navigate("quickcheck.aspx")'>
+									
+									
+								</td>
+							</tr>
+							<tr>
+								<td align="middle" width="100%" height="5" border="0">
+									
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td width="40%">
+						Subscription description
+					</td>
+				</tr>
+			</table>
+		
+<!--
+<table cellSpacing="0" cellPadding="0" width="100%" bgColor="#004184" border="0">
+	<tr>
+		<td width="50%" background="/images/Gradient2B.jpg" height="12"><IMG height="4" src="/images/WcornerBL.gif" width="4" align="absBottom" border="0"><font face="Verdana, Arial, Helvetica" color="#ffffff" size="1">&nbsp;www.checkdns.net 
+				- a Uniplace service</font></td>
+		<td width="50%" height="12">
+			<p align="right"><font face="Verdana, Arial, Helvetica" color="#ffffff" size="1">www.checkdns.net&nbsp;<IMG align="absBottom" border="0" alt="" src="/images/WcornerBR.gif"></font></p>
+		</td>
+	</tr>
+</table>
+
+<TABLE cellSpacing="0" cellPadding="0" width="100%" align="baseline" bgColor="#004184" border="0">
+	<TBODY>
+		<TR>
+			<TD width="50%" background="/images/Gradient2B.jpg" height="12"><IMG height="12" src="/images/WcornerBL.gif" width="4" align="absBottom" border="0"><FONT face="Verdana, Arial, Helvetica" color="#ffffff" size="1">&nbsp;www.checkdns.net 
+					- powered by <B><A class="whitelink" href="http://www.unitradex.net/">UNITRADEX.NET</A></B>
+				</FONT>
+			</TD>
+			<TD width="50%" height="12">
+				<P align="right"><FONT face="Verdana, Arial, Helvetica" color="#ffffff" size="1">(all 
+						rights reseved)&nbsp; <B><A class="whitelink" href="http://www.uniplace.com/">Uniplace 
+								AG</A></B>&nbsp;<IMG height="12" alt="" src="/images/WcornerBR.gif" width="4" align="top" border="0"></FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+-->
+<table cellSpacing="0" cellPadding="0" width="100%" bgColor="#004184" border="0">
+	<tr>
+		<td width="50%" background="/images/Gradient2B.jpg" height="12"><IMG height="4" src="/images/WcornerBL.gif" width="4" align="absBottom" border="0"><font face="Verdana, Arial, Helvetica" color="#ffffff" size="1">&nbsp;www.checkdns.net 
+				- powered by <B><A class="whitelink" href="http://www.unitradex.net/">UNITRADEX.NET</A></B></font></td>
+		<td width="50%" height="12">
+			<p align="right"><font face="Verdana, Arial, Helvetica" color="#ffffff" size="1">(all 
+					rights reseved)&nbsp; <B><A class="whitelink" href="http://www.uniplace.com/">Uniplace 
+							AG</A></B>&nbsp;<IMG align="absBottom" border="0" alt="" src="/images/WcornerBR.gif"></font></p>
+		</td>
+	</tr>
+</table>
+<TABLE height="80" cellSpacing="0" cellPadding="0" width="100%" align="buttom" bgColor="#ffffff" border="0">
+	<TBODY>
+		<TR>
+			<TD style="FONT-SIZE: 7pt; HEIGHT: 90px" align="buttom" width="6">
+			<TD style="HEIGHT: 90px">
+			<TD style="FONT-SIZE: 7pt; HEIGHT: 90px" align="buttom" width="150">Uniplace AG<BR>
+				Headquarter<BR>
+				CH - 8005 Zürich<BR>
+				Switzerland<BR>
+			</TD>
+			<TD style="FONT-SIZE: 7pt; HEIGHT: 90px" align="buttom">Tel.: +41 43 366 88 22<BR>
+				Fax.: +41 43 366 88 23<BR>
+				Web: <A href="http://www.uniplace.com/">http://www.uniplace.com/</A><BR>
+				e-Mail: checkdns@uniplace.com<BR>
+			</TD>
+			<TD style="FONT-SIZE: 7pt; HEIGHT: 90px" align="buttom">
+				<P align="right"><A href="http://www.uniplace.com/"><IMG alt="Uniplace AG" src="/images/uniplace.gif" align="top" border="0" style="WIDTH: 146px; HEIGHT: 63px" height="63" width="146"></A></P>
+			</TD>
+			<TD style="FONT-SIZE: 7pt; HEIGHT: 90px" align="buttom" width="6">
+			<TD style="HEIGHT: 90px"></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+
+		
+<script language="javascript">
+<!--
+	var Page_Validators =  new Array(document.all["Requiredfieldvalidator1"], document.all["RegularExpressionValidator1"], document.all["RequiredFieldValidator2"], document.all["CompareValidator1"]);
+		// -->
+</script>
+
+			
+<script language="javascript">
+<!--
+var Page_ValidationActive = false;
+if (typeof(clientInformation) != "undefined" && clientInformation.appName.indexOf("Explorer") != -1) {
+    if (typeof(Page_ValidationVer) == "undefined")
+        alert("Unable to find script library '/aspnet_client/system_web/1_0_3705_288/WebUIValidation.js'. Try placing this file manually, or reinstall by running 'aspnet_regiis -c'.");
+    else if (Page_ValidationVer != "125")
+        alert("This page uses an incorrect version of WebUIValidation.js. The page expects version 125. The script library is " + Page_ValidationVer + ".");
+    else
+        ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        ValidatorCommonOnSubmit();
+    }
+}
+// -->
+</script>
+        
+
+		</form>
+
+	</body>
+</HTML>
